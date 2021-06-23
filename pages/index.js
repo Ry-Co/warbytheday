@@ -1,5 +1,13 @@
 import Head from 'next/head'
 
+
+
+// POST is for adding a new database entry
+// PUT is for updating an existing database entry
+// GET is for fetching the existing database entry
+// DELETE is for deleting the existing database entry
+
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
