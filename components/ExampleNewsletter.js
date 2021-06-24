@@ -1,6 +1,6 @@
 const ExampleNewsletter = () => {
   return (
-    <div class="">
+    <div className="">
       <div>
         <base target="_blank" />
         <title>War by the day</title>
@@ -11,7 +11,7 @@ const ExampleNewsletter = () => {
               '\n    body {\n      margin: 0;\n      padding: 0;\n      background-color: #4f4f4f;\n    }\n\n    table {\n      border-spacing: 0;\n    }\n\n    td {\n      padding: 0;\n    }\n\n    img {\n      border: 0;\n    }\n\n    .wrapper {\n      width: 100%;\n      table-layout: fixed;\n      background-color: #ededed;\n    }\n\n    .webkit {\n      max-width: 600px;\n      background-image: linear-gradient(#fdf2df, #FFFFFF);\n    }\n\n    .outer {\n      margin: 0 auto;\n      width: 100%;\n      max-width: 600px;\n      border-spacing: 0;\n      font-family: "Courier New", Courier, monospace;\n      color: #4a4a4a;\n    }\n\n    .three-columns {\n      text-align: center;\n      font-size: 0;\n      line-height: 0;\n      padding-top: 40px;\n      padding-bottom: 30px;\n    }\n\n    .three-columns .column {\n      width: 100%;\n      max-width: 200px;\n      display: inline-block;\n      vertical-align: top;\n    }\n\n    .three-columns .content {\n      font-size: 15px;\n      line-height: 20px;\n    }\n\n    .padding {\n      padding: 15px;\n    }\n\n    .month-day {\n      /* font-style:oblique; */\n      font-size: xx-large;\n      padding-top: 15px;\n    }\n\n    .year-row {\n      background-color: rgba(0, 0, 0, 0);\n    }\n\n    .year {\n      text-decoration: underline;\n      font-size: x-large;\n      padding-left: 15px;\n      padding-top: 5px;\n\n    }\n\n    .year-text {\n      font-size: large;\n      padding-left: 25px;\n      padding-right: 15px;\n    }\n\n    a {\n      text-decoration: underline;\n      color: #6D8C9C;\n      font-size: 17px;\n    }\n  ',
           }}
         />
-        <center className="wrapper" class=" shadow-2xl">
+        <center className="wrapper" className=" shadow-2xl">
           <div className="webkit">
             <table className="outer" align="center">
               {/* EVENTS */}
@@ -44,7 +44,6 @@ const ExampleNewsletter = () => {
                               <img
                                 src="https://i.ibb.co/DCmMF5n/f.gif"
                                 alt="Loading video..."
-                                srcSet
                                 width="100%"
                               />
                             </a>
@@ -84,7 +83,7 @@ const ExampleNewsletter = () => {
                                 }}
                               />
                             </dd>
-                            <dd class="px-5 pb-5">
+                            <dd className="px-5 pb-5">
                               {" "}
                               10,000 Japanese troops launch a counter-attack in
                               eastern Shanxi Province in China in an attempt to
@@ -116,7 +115,7 @@ const ExampleNewsletter = () => {
                                 }}
                               />
                             </dd>
-                            <dd class="px-5 pb-5">
+                            <dd className="px-5 pb-5">
                               {" "}
                               Accounting of the previous night's bombing of
                               London reveals that the{" "}
@@ -168,7 +167,7 @@ const ExampleNewsletter = () => {
                                 }}
                               />
                             </dd>
-                            <dd class="px-5 pb-5">
+                            <dd className="px-5 pb-5">
                               {" "}
                               Twenty-six Allied countries signed the{" "}
                               <a
@@ -211,7 +210,7 @@ const ExampleNewsletter = () => {
                                 }}
                               />
                             </dd>
-                            <dd class="px-5 pb-5">
+                            <dd className="px-5 pb-5">
                               {" "}
                               <a
                                 href="https://en.wikipedia.org/wiki/Germany"
@@ -260,7 +259,7 @@ const ExampleNewsletter = () => {
                                 }}
                               />
                             </dd>
-                            <dd class="px-5 pb-5">
+                            <dd className="px-5 pb-5">
                               {" "}
                               The Germans begin a surprise offensive (
                               <a
@@ -362,7 +361,7 @@ const ExampleNewsletter = () => {
                             >
                               forwarding this email
                             </p>
-                            <p class="pb-4" style={{ fontSize: "16px", color: "#4f4f4f" }}>
+                            <p className="pb-4" style={{ fontSize: "16px", color: "#4f4f4f" }}>
                               or
                             </p>
                             <p
@@ -390,7 +389,7 @@ const ExampleNewsletter = () => {
                             <p
                               style={{ fontSize: "16px", marginTop: "18px" }}
                             ></p>
-                            <p class="pb-5">
+                            <p className="pb-5">
                               <a href="#">warbytheday.com</a>
                             </p>
                             <p />

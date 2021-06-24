@@ -42,12 +42,12 @@ export default function Home() {
         <title>War by the day</title>
       </Head>
 
-      <div class="w-full">
+      <div className="w-full">
         <NavBar />
       </div>
       <main className="flex flex-col  justify-center w-full px-20 text-left items-center ">
         <MainCTA />
-        <div class="w-600">
+        <div className="w-600">
           <ExampleNewsletter />
         </div>
       </main>
