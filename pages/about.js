@@ -11,7 +11,7 @@ export default function about() {
                                 Coming Soon!
                             </h2>
                             <h3 class='text-xl md:text-3xl mt-10'>This page is currently under construction</h3>
-                            <p class="text-md md:text-xl mt-10">Apologies for the inconvience</p>
+                            <p class="text-md md:text-xl mt-10">Apologies for the inconvenience</p>
                         </div>
                         <div class="flex flex-wrap mt-10 justify-center">
                             <div class="m-3">

@@ -31,7 +31,7 @@ export default function Home() {
           <ExampleNewsletter />
         </div>
       </main>
-      
+
     </div>
   );
 }
