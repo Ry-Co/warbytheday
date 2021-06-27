@@ -13,31 +13,11 @@ import Footer from "../components/Footer";
 // axios.post('api/entry', {title:"this is a title", slug:"this-is-a-slug", body:"LoremLoremIpsum Ipsum Lora gefardia"})
 
 export default function Home() {
-  const [contacts, contactsLoading, contactsError] = useCollection(
-    firebase.firestore().collection("emails"),
-    {}
-  );
-  const db = firebase.firestore();
 
-  // if(!contactsLoading && contacts){
-  //   console.log(contacts)
-  //   console.log(contacts.docs)
-  //   contacts.docs.map((doc) =>{
-  //     console.log(doc.data().email)
-  //   })
-  // }
 
-  const addEmailToDB = async (email) => {
-    // call this after validating email
-    await db.collection("emails").doc(email).set({ email });
-  };
-  const removeEmailFromDB = async (email) => {
-    console.log("DELETING " + email);
-    await db.collection("emails").doc(email).delete();
-  };
 
   return (
-    <div className="flex flex-col items-center  min-h-screen py-2 bg-gray-200 ">
+    <div className="flex flex-col items-center  min-h-screen pt-2 bg-gray-200 ">
       <Head>
         <title>War by the day</title>
       </Head>
@@ -51,6 +31,7 @@ export default function Home() {
           <ExampleNewsletter />
         </div>
       </main>
+      
     </div>
   );
 }
